@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+
+# Build outputs (Nuitka / PyInstaller)
+build/
+dist/
+main.dist/
+main.onefile-build/
+main.build/
+.nuitka/
+main.spec
+
+# Built app exe — distribute via GitHub Releases instead of committing
+main.exe
+
+# FFMPEG and YT-DLP EXEs - download manually instead of adding to repo
+ffmpeg.exe
+yt-dlp.exe
+
+# User config
+config.json
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
