@@ -12,7 +12,8 @@ Your antivirus might flag this as a trojan or malicious program. This is only be
 ### Building yourself
 Here is the command I used. I used Nuitka to get faster performance. If you want to use Nuitka, make sure to run `pip install nuitka` and install Visual Studio Build Tools before proceeding.
 
-```python -m nuitka main.py ^
+```
+python -m nuitka main.py ^
   --onefile ^
   --enable-plugin=tk-inter ^
   --windows-console-mode=disable ^
