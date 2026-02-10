@@ -11,14 +11,15 @@ The app automatically detects your clipboard and pastes it into the YouTube URL 
 Your antivirus might flag this as a trojan or malicious program. This is only because the program includes ffmpeg and yt-dlp EXEs that it automatically self-extracts. The warning is a false positive and it is safe to make an exception for this program. All the code is available for you to view and you can build it yourself if you want.
 ### Building yourself
 Here is the command I used. I used Nuitka to get faster performance. If you want to use Nuitka, make sure to run `pip install nuitka` and install Visual Studio Build Tools before proceeding.
-    python -m nuitka main.py ^
-      --onefile ^
-      --enable-plugin=tk-inter ^
-      --windows-console-mode=disable ^
-      --windows-icon-from-ico=icon.ico ^
-      --windows-company-name="David Gordiienko" ^
-      --windows-product-name="YT-DLP GUI" ^
-      --windows-file-version=1.0.0 ^
-      --windows-product-version=1.0.0 ^
-      --include-data-files=yt-dlp.exe=yt-dlp.exe ^
-      --include-data-files=ffmpeg.exe=ffmpeg.exe
+
+```python -m nuitka main.py ^
+  --onefile ^
+  --enable-plugin=tk-inter ^
+  --windows-console-mode=disable ^
+  --windows-icon-from-ico=icon.ico ^
+  --windows-company-name="David Gordiienko" ^
+  --windows-product-name="YT-DLP GUI" ^
+  --windows-file-version=1.0.0 ^
+  --windows-product-version=1.0.0 ^
+  --include-data-files=yt-dlp.exe=yt-dlp.exe ^
+  --include-data-files=ffmpeg.exe=ffmpeg.exe```
