@@ -2,7 +2,7 @@
 A simple Windows GUI for YT-DLP made in Python using Tkinter.
 ## Usage and installation
 ### Users (99% of people)
-Go to the [Releases](https://github.com/davidgordiienko/yt-dlp-gui/releases) tab and download the EXE
+Go to the [Releases](https://github.com/davidgordiienko/yt-dlp-gui/releases) tab and download and extract the ZIP file. Don't delete the folder, the app needs it to run. For convenience, copy the main EXE file and paste it as a shortcut to your desktop.
 ### Developers, advanced users, and people who want to run this using Python
 Clone (download) the repo and also download yt-dlp and ffmpeg EXEs and place them in the project's root directory. Make sure they are named `yt-dlp.exe` and `ffmpeg.exe`. From there, you can run the file with Python or within your IDE.
 ## How the app works
