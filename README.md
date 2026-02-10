@@ -10,7 +10,7 @@ The app automatically detects your clipboard and pastes it into the YouTube URL 
 ## IMPORTANT ANTIVIRUS NOTE
 Your antivirus might flag this as a trojan or malicious program. This is only because the program includes ffmpeg and yt-dlp EXEs that it automatically self-extracts. The warning is a false positive and it is safe to make an exception for this program. All the code is available for you to view and you can build it yourself if you want.
 ### Building yourself
-Here is the command I used. I used Nuitka to get faster performance. If you want to use Nuitka, make sure to run `pip install nuitka` and install Visual Studio Build Tools before proceeding.
+Here is the command I used. I used Nuitka to get faster performance. If you want to use Nuitka, make sure to run `pip install nuitka` and install Visual Studio Build Tools before proceeding. Also run this command in **Command Prompt (CMD)** *not* **PowerShell**.
 
 ```
 python -m nuitka main.py ^
